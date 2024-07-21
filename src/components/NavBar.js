@@ -102,20 +102,11 @@ const NavBar = () => {
             </nav>
 
             <nav className='flex items-center justify-center flex-wrap'>
-                <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3'>
-                    <TwitterIcon /> 
-                </motion.a>
-                <motion.a href="https://github.com/kavishdoshi" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
-                    <GithubIcon /> 
-                </motion.a>
-                <motion.a href="https://www.linkedin.com/in/kavishdoshi/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
+                <motion.a href="https://www.linkedin.com/in/anushri-parikh-256940173/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
                     <LinkedInIcon />
                 </motion.a>
-                <motion.a href="https://www.pinterest.ca/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
-                    <PinterestIcon />
-                </motion.a>
-                <motion.a href="https://dribbble.com/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3'>
-                    <DribbbleIcon />
+                <motion.a href="https://www.instagram.com/anu.pa.inmaking?igsh=MTgzMTNkMHd0eHQ0eg%3D%3D&utm_source=qr" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3'>
+                    <InstagramIcon />
                 </motion.a>
 
                 <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className={`ml-3 flex items-center justify-center rounded-full p-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}>
@@ -139,7 +130,7 @@ const NavBar = () => {
                         <motion.a href="https://www.linkedin.com/in/anushri-parikh-256940173/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 sm:mx-1'>
                             <LinkedInIcon />
                         </motion.a>
-                        <motion.a href="https://dribbble.com/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3 sm:mx-1'>
+                        <motion.a href="https://www.instagram.com/anu.pa.inmaking?igsh=MTgzMTNkMHd0eHQ0eg%3D%3D&utm_source=qr" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3 sm:mx-1'>
                             <InstagramIcon />
                         </motion.a>
                         <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className={`w-7 ml-3 rounded-full p-1 sm:mx-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}>

@@ -2,7 +2,7 @@ import Link from 'next/link'
 import React, { useState } from 'react'
 import Logo from './Logo'
 import { useRouter } from 'next/router'
-import { DribbbleIcon, GithubIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from './Icons'
+import { DribbbleIcon, GithubIcon, InstagramIcon, LinkedInIcon, MoonIcon, PinterestIcon, SunIcon, TwitterIcon } from './Icons'
 import { motion } from 'framer-motion'
 import useThemeSwitcher from './hooks/useThemeSwitcher'
 import Cookie from 'js-cookie'
@@ -136,22 +136,12 @@ const NavBar = () => {
                     </nav>
 
                     <nav className='flex items-center justify-center flex-wrap mt-2'>
-                        <motion.a href="https://twitter.com" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mr-3 sm:mx-1'>
-                            <TwitterIcon /> 
-                        </motion.a>
-                        <motion.a href="https://github.com/kavishdoshi" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 sm:mx-1 bg-light rounded-full dark:bg-dark'>
-                            <GithubIcon /> 
-                        </motion.a>
-                        <motion.a href="https://www.linkedin.com/in/kavishdoshi/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 sm:mx-1'>
+                        <motion.a href="https://www.linkedin.com/in/anushri-parikh-256940173/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 sm:mx-1'>
                             <LinkedInIcon />
                         </motion.a>
-                        <motion.a href="https://www.pinterest.ca/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 mx-3 sm:mx-1 bg-light rounded-full'>
-                            <PinterestIcon />
-                        </motion.a>
                         <motion.a href="https://dribbble.com/" target={"_blank"} whileHover={{y:-2}} whileTap={{scale:0.9}} className='w-6 ml-3 sm:mx-1'>
-                            <DribbbleIcon />
+                            <InstagramIcon />
                         </motion.a>
-
                         <button onClick={() => setMode(mode === "light" ? "dark" : "light")} className={`w-7 ml-3 rounded-full p-1 sm:mx-1 ${mode === "light" ? "bg-dark text-light" : "bg-light text-dark"}`}>
                             {
                                 mode === "dark" ? <SunIcon className= {"fill-dark"} /> : <MoonIcon className={"fill-dark"} />

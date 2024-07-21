@@ -66,8 +66,8 @@ const projects = () => {
   return (
     <>
         <Head>
-            <title>Kavish | Projects</title>
-            <meta name='description' content='Kavish Project'></meta>
+            <title>Anu | Projects</title>
+            <meta name='description' content='Anu Project'></meta>
         </Head>
         <TransitionEffect />
         <main className='w-full mb-16 flex flex-col items-center justify-center'>

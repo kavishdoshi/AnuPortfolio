@@ -3,7 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Layout from '@/components/Layout'
 import AnimatedText from '@/components/AnimatedText'
-import profilePic from "../images/profile/developer-pic-1.png"
+import profilePic from "../images/profile/developer-pic-4.png"
 import { LinkArrow } from '@/components/Icons'
 import HireMe from '@/components/HireMe'
 import lightBulb from "../../public/images/svgs/miscellaneous_icons_1.svg"
@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title> Kavish | Home</title>
+        <title> Anu | Home</title>
         <meta name="description" content='Home Page' />
       </Head>
       <TransitionEffect />
@@ -30,7 +30,7 @@ export default function Home() {
               <AnimatedText text = "Turning Vision Into Reality With Code And Design." className='!text-6xl !text-left xl:!text-5xl lg:!left-center lg:!text=6xl md:!text-5xl sm:!text-3xl'/>
               <p className='my-4 text-base font-medium md:text-sm sm:text-xs'>As a skilled developer, I am dedicated to turning ideas into applications. </p>
               <div className='flex items-center self-start mt-2 lg:self-center'>
-                <Link href="/KavishDoshiResume.pdf" target={"_blank"} 
+                <Link href="/AnushriParikhResume.pdf" target={"_blank"} 
                       className='flex items-center bg-dark text-light p-2.5 px-6 rounded-lg lext-lg font-semibold hover:bg-light hover:text-dark border-2 border-solid border-transparent hover:border-dark dark:text-dark dark:bg-light hover:dark:bg-dark hover:dark:border-light hover:dark:text-light md:p-2 md:px-4 md:text-base' download={true}>
                   Resume <LinkArrow className={"w-6 ml-1 md:w-4"} />
                 </Link>

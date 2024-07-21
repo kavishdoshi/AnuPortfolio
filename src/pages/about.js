@@ -40,8 +40,8 @@ const about = () => {
   return (
     <>
         <Head>
-            <title>Kavish | About Page</title>
-            <meta name='description' content='About Kavish'></meta>
+            <title>Anu | About Page</title>
+            <meta name='description' content='About Anu'></meta>
         </Head>
         <TransitionEffect />
         <main className='flex w-full flex-col items-center justify-center dark:text-light'>

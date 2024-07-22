@@ -30,7 +30,6 @@ const FeaturedProject = ({type, title, summary, img, link, github}) => {
                 </Link>
                 <p className='my-2 font-medium text-dark dark:text-light sm:text-sm'>{summary}</p>
                 <div className='mt-2 flex items-center'>
-                    <Link href={github} target="_blank" className='w-10 dark:text-light'><GithubIcon /></Link>
                     <Link href={link} target="_blank" className='ml-4 rounded-lg bg-dark dark:bg-light dark:text-dark text-light p-2 px-6 text-lg font-semibold sm:px-4 sm:text-base'>Visit Project</Link>
                 </div>
             </div>
@@ -55,7 +54,6 @@ const Project = ({type, title, img, link, github}) => {
                 </Link>
                 <div className='w-full mt-2 flex items-center justify-between md:text-base'>
                     <Link href={link} target="_blank" className='text-lg font-semibold underline dark:text-light'>Visit</Link>
-                    <Link href={github} target="_blank" className='w-8 dark:text-light md:w-6'><GithubIcon /></Link>
                 </div>
             </div>
         </article>
@@ -74,16 +72,6 @@ const projects = () => {
             <Layout classname='pt-16 '>
                 <AnimatedText text="Imagination Trumps Knowledge!" className='mb-16 lg:!text-7xl sm:!mb-8 sm:!text-6xl xs:!text-4xl'/>
                 <div className='grid grid-cols-12 gap-24 gap-y-32 xl:gap-x-16 lg:gap-x-8 md:gap-y-24 sm:gap-x-0'>
-                    <div className='col-span-12'>
-                        <FeaturedProject 
-                        title="Movie Recommendation System "
-                        summary="A machine learning based movie recommendation system that recommends movies based on the user's previous ratings and the ratings of other users. It uses the concept of collaborative filtering to recommend movies."
-                        link ="https://github.com/kavishdoshi/Movie-Recommendation-System"
-                        type = "Featured Project"
-                        img={project1Img}
-                        github="https://github.com/kavishdoshi/Movie-Recommendation-System"
-                        />
-                    </div>
                     <div className='col-span-6 sm:col-span-12'>
                     <Project 
                         title="Collect Data For CCHD Screening Research"
